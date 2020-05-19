@@ -1,0 +1,25 @@
+{
+  "name": "Customer-Review",
+  "version": "1.0.0",
+  "description": "Assignment using MEAN Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhumesh1505/Customer-Review.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhumesh1505/Customer-Review/issues"
+  },
+  "homepage": "https://github.com/bhumesh1505/Customer-Review#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15"
+  }
+}
