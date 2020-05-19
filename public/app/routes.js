@@ -8,7 +8,7 @@ angular.module('appRoutes',['ngRoute'])
         })
         .when('/showallreviews', {
             templateUrl:'app/views/pages/showallreviews.html',
-            controller:'mainCtrl'
+            controller:'showAllReviewCtrl'
         })
         .otherwise({ redirectTo: '/review' });
 
