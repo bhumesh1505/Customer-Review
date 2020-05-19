@@ -1,0 +1,24 @@
+<dir class="container">
+<h1>List of all reviews</h1>
+<br>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Review</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="x in reviewsList">
+        <td>{{x.name}}</td>
+        <td>{{x.email}}</td>
+        <td>{{x.mobile}}</td>
+        <td>{{x.review}}</td>
+        <td>{{x.rating}}</td>
+      </tr>
+    </tbody>
+</table>
+</dir>
