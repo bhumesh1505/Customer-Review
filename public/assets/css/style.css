@@ -1,0 +1,13 @@
+.reviewContainer{
+	max-width: 500px;
+}
+.ratingStars span{
+	font-size: 25px;
+}
+.ratingStars span:hover{
+	cursor: pointer;
+}
+.ratingStars{
+	background: transparent;
+	border: none;
+}
