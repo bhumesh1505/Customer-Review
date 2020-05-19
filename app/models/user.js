@@ -9,4 +9,4 @@ var UserSchema = new Schema({
 	review: { type: String, lowercase: true, required: true, unique: false }
 });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('Review', UserSchema);

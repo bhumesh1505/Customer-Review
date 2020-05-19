@@ -20,6 +20,7 @@
 
     <!-- Angular Controllers -->
     <script src="app/controllers/mainCtrl.js"></script>
+    <script src="app/controllers/showAllReviewCtrl.js"></script>
 
     <!-- Angular Services -->
     <script src="app/services/userServices.js"></script>
@@ -28,19 +29,21 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
     <title>Customer review</title>
 </head>
 <body ng-app="userApp" ng-controller="mainCtrl" ng-cloak="">
 
     <nav class="navbar navbar-inverse" style="border-radius: 0px">
         <div class="container-fluid">
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="/home">Submit Review</a></li>
-                    <li><a href="/about">Show All Review</a></li>
-                </ul>
-            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="/review">Review</a></li>
+                <li><a href="/showallreviews">Show All Reviews</a></li>
+            </ul>
         </div>
     </nav>
 
