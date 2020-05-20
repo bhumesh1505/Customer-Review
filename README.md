@@ -29,7 +29,8 @@ Steps to run the code :
 
 1. Make sure <b>"node"</b> and <b>"npm"</b> is installed.
 
-2. Install all require node modules using command
+2. Install all require node modules using command - 
+	<br>
 	<b>npm install</b>
 
 3. Connection to mongodb <br>
@@ -41,7 +42,11 @@ Steps to run the code :
 	To connect mongodb locally<br>
 	<b>const uri = "mongodb://localhost:27017/myapp";</b>
 
-4. Command to start the application
+4. Command to start the application - 
+	<br>
 	<b>npm start</b>
+	<br>
 	or 
+	<br>
 	<b>node index.js</b>
+	<br>
