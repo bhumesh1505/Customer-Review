@@ -33,7 +33,8 @@ Steps to run the code :
 	npm install
 
 3. Connection to mongodb
-	inside index.js file change uri to -  
+
+	inside index.js file, change uri to -  
 	
 	To connect mongodb cloud
 	const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
