@@ -50,3 +50,6 @@ Steps to run the code :
 	<br>
 	<b>node index.js</b>
 	<br>
+
+Server is running at port 8000
+http://localhost:8000/
