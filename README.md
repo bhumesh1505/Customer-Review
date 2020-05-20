@@ -36,10 +36,12 @@ Steps to run the code :
 
 	inside index.js file, change uri to -  
 	
-	To connect mongodb cloud
+	To connect mongodb cloud.
 	const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
+	
 	or
-	To connect mongodb locally
+
+	To connect mongodb locally.
 	const uri = "mongodb://localhost:27017/myapp";
 
 4. Command to start the application
