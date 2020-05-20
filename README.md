@@ -23,3 +23,25 @@ Review API
 2. After the user clicks submit button, the data in the form should be stored in a database.
 3. You can build your API using SpringBoot, Java, Node, Express or anything.
 (Better If Ratings are marked in Star Format, Instead of typing the Ratings)
+
+
+Steps to run the code :
+
+1. Make sure "node" and "npm" is installed.
+
+2. Install all require node modules using command
+	npm install
+
+3. Connection to mongodb
+	inside index.js file change uri to -  
+	
+	To connect mongodb cloud
+	const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
+	or
+	To connect mongodb locally
+	const uri = "mongodb://localhost:27017/myapp";
+
+4. Command to start the application
+	npm start
+	or 
+	node index.js
