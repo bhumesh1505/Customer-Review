@@ -32,16 +32,13 @@ Steps to run the code :
 2. Install all require node modules using command
 	npm install
 
-3. Connection to mongodb
-
+3. Connection to mongodb <br>
 	inside index.js file, change uri to -  
-	
-	To connect mongodb cloud.
+	<br>
+	To connect mongodb cloud.<br>
 	const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
-	
-	or
-
-	To connect mongodb locally.
+	<br>or<br>
+	To connect mongodb locally<br>
 	const uri = "mongodb://localhost:27017/myapp";
 
 4. Command to start the application
