@@ -18,7 +18,11 @@ app.use('/api',appRoutes);
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
-mongoose.connect('mongodb+srv://bhumesh1998:bhumesh1998@cluster0-ubi02.mongodb.net/test?retryWrites=true&w=majority',{ useUnifiedTopology: true },function(err){
+
+//const uri = const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bhumesh1998:bhumesh1998@cluster0-ubi02.mongodb.net/test?retryWrites=true&w=majority";
+
+mongoose.connect(uri,{ useUnifiedTopology: true },function(err){
 	if(err){
 		console.log("failed to connect to database: " + err);
 	}
