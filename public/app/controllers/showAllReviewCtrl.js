@@ -1,5 +1,5 @@
 angular.module('showAllReviewController',[])
-.controller('showAllReviewCtrl',function($scope,$location,$timeout,$rootScope,User){
+.controller('showAllReviewCtrl',function($scope,User){
         $scope.successMsg = false;
         $scope.errorMsg = false;
         $scope.reviewsList = [];

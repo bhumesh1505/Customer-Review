@@ -1,5 +1,5 @@
 angular.module('mainController',[])
-.controller('mainCtrl',function($scope,$location,$timeout,$rootScope,User){
+.controller('mainCtrl',function($scope,$location,$timeout,User){
         $scope.successMsg = false;
         $scope.errorMsg = false;
         $scope.maxratings = [1,2,3,4,5];
