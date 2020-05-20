@@ -27,21 +27,26 @@ Review API
 
 Steps to run the code :
 
-1. Make sure "node" and "npm" is installed.
+1. Make sure <b>"node"</b> and <b>"npm"</b> is installed.
 
-2. Install all require node modules using command
-	npm install
+2. Install all require node modules using command - 
+	<br>
+	<b>npm install</b>
 
-3. Connection to mongodb
-	inside index.js file change uri to -  
-	
-	To connect mongodb cloud
-	const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/test?retryWrites=true&w=majority";
-	or
-	To connect mongodb locally
-	const uri = "mongodb://localhost:27017/myapp";
+3. Connection to mongodb <br>
+	inside index.js file, change uri to -  
+	<br>
+	To connect mongodb cloud.<br>
+	<b>const uri = "mongodb+srv://username:password@your-cluster-url/test?retryWrites=true&w=majority";</b>
+	<br>or<br>
+	To connect mongodb locally<br>
+	<b>const uri = "mongodb://localhost:27017/myapp";</b>
 
-4. Command to start the application
-	npm start
+4. Command to start the application - 
+	<br>
+	<b>npm start</b>
+	<br>
 	or 
-	node index.js
+	<br>
+	<b>node index.js</b>
+	<br>
