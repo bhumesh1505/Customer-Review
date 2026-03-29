@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bhumesh1505/Customer-Review#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.22.1",
     "mongoose": "^5.9.15",
     "morgan": "^1.10.0"
   }
